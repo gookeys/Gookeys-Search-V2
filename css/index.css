@@ -1,0 +1,196 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*--Style Start Here--*/
+body{
+    font-family: arial,sans-serif;
+}
+main{
+    display:block;
+    width:100%;
+    float:left;
+}
+section{
+    display:block;
+    width:100%;
+    float:left;
+}
+.home-logo{
+    width: 30%;
+    float: left;
+    margin: 8% 35% 10px;
+    text-align: center;
+}
+.home-logo img{
+    width:30%;
+}
+.search-from{
+    width: 50%;
+    margin: 0 25%;
+    float: left;
+}
+.search-from form{
+    float:left;
+    width:100%;
+    position: relative;
+}
+.search-from form input{
+    width: 100%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border: 0;
+    height: 40px;
+    outline: none;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+.search-from form button{
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-position: 5px;
+    background-size: 35px;
+    border: 0;
+    width: 50px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    outline: none;
+}
+.main-menu{
+    margin: 26px;
+    position: absolute;
+    right: 0;
+}
+.main-menu a{
+    float:left;
+}
+.menu-right{
+    position:fixed;
+    right:0;
+    top:0;
+    bottom:0;
+    width:180px;
+    background: #ffffff;
+    display:none;
+    border-left:1px solid #dddddd;
+    z-index:9999;
+    overflow: auto;
+}
+a.menu-btn span:first-child,a.menu-btn span:nth-child(2),a.menu-btn span:nth-child(3){
+    width: 20px;
+    height: 2px;
+    display: block;
+    margin: 4px 0;
+    background-color:#000000
+}
+a.menu-cls{
+    display: block;
+    float: right;
+    height: 30px;
+    margin: 22px 20px 0;
+}
+a.menu-cls span{background-color:#000000;width: 20px;height: 2px;display: block;}
+a.menu-cls span:first-child{transform: rotate(135deg);position: relative;top: 14px;}
+a.menu-cls span:nth-child(2){transform:rotate(-135deg);position: relative;top: 12px;}
+.side-menu{
+    float:left;
+    width:100%;
+    padding:15px;
+    box-sizing: border-box;
+}
+.side-menu h4{
+    font-size: 12px;
+    color: #a7a7a7;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.side-menu ul{
+    float:left;
+    width:100%;
+    list-style:none;
+    padding:0;
+}
+.side-menu ul li a{
+    color: #666666;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 4px 0px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+}
+.side-menu ul li a:hover{
+    text-decoration:underline;
+}
+footer{
+    width:100%;
+    float:left;
+    min-height:50px;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    position:absolute;
+    bottom:0;
+}
+footer p{
+    color: #666;
+    font-size: small;
+    padding: 20px;
+    float: left;
+    line-height:24px;
+}
+footer p a{
+    color: #666;
+    text-decoration: none;
+    padding-bottom:2px;
+}
+footer p a:hover{
+    border-bottom:1px solid #666666;
+}
+.ads-box{
+    margin: 5% auto;
+    display: block;
+    text-align: center;
+    width: 100%;
+    float: left;
+}
